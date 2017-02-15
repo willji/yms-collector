@@ -1,0 +1,44 @@
+{
+  "collector": [
+    {
+      "name": "sql_for_order",
+      "enable": false,
+      "plugin": "collector.plugins.sql_collector.SQLCollector",
+      "interval": 10000,
+      "default_db": "yms",
+      "params": {
+        "driver": "mysql",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "db": "test",
+        "query": "SELECT r.name AS name, r.source AS source, h.t_value AS t_value, h.y_value AS y_value, h.created_time AS created_time, h.modified_time AS modified_time FROM monitor_history h, monitor_realtime r WHERE h.created_time > '{last!T:%Y-%m-%d %H:%M:%S}' AND r.source='ALL'",
+        "mapping": [
+          {
+            "template": true,
+            "key": "{name}_t_value",
+            "value": "t_value",
+            "tags": {
+              "name": "name",
+              "source": "source"
+            },
+            "timestamp": {
+              "field": "created_time"
+            }
+          },
+          {
+            "template": true,
+            "key": "{name}_y_value",
+            "value": "y_value",
+            "tags": {
+              "name": "name",
+              "source": "source"
+            },
+            "timestamp": {
+              "field": "created_time"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

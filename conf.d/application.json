@@ -1,0 +1,17 @@
+{
+  "collector": [
+    {
+      "name": "application_from_mysql",
+      "plugin": "collector.plugins.application_collector.ApplicationCollector",
+      "interval": 60,
+      "default_db": "yms",
+      "params": {
+        "host": "10.10.10.91",
+        "port": 30001,
+        "db": "dbmonitor",
+        "user": "monitoruser",
+        "password": "mmowhci$53nZH2whc@452276w"
+      }
+    }
+  ]
+}

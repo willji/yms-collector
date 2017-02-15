@@ -1,0 +1,13 @@
+{
+  "collector": [
+    {
+      "name": "seller_online_status",
+      "plugin": "collector.plugins.seller_online_status_collector.SellerOnlineStatusCollector",
+      "interval": 300,
+      "default_db": "yms",
+      "params": {
+        "url": "http://userservice.ymatou.com/json/reply/SellerOnlineStatusTimeRangeQueryRequest"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "collector": [
+    {   
+      "name": "mssql",
+      "prefix": "mssql",
+      "enable": false,
+      "plugin": "collector.plugins.mssql_collector.MssqlCollector",
+      "interval": 10, 
+      "default_db": "yms",
+      "params": {
+        "host": ["10.11.11.7", "10.11.11.54", "10.11.11.61", "10.11.11.62", "10.11.11.63"],
+        "user": "monitoruser",
+        "password": "mmowhci$53nZH2whc@452276w",
+        "db": "master",
+        "sql": """select Top 2 '存在死锁','dba@ymatou.com',convert(varchar(20),LogDate,120)+' '+[text]
+                from tempdb.dbo.errorlog  where logdate > dateadd(second,-90,getdate()) and (text like '%deadlock-list%')"""
+      }   
+    }   
+  ]
+}
+

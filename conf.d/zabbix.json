@@ -1,0 +1,27 @@
+{
+  "collector": [
+    {
+      "name": "zabbix",
+      "plugin": "collector.plugins.zabbix_collector.ZabbixCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+        "zabbix_url": "http://zabbix.ymatou.cn/api_jsonrpc.php",
+        "zabbix_username": "admin",
+        "zabbix_password": "abcd@1234",
+        "cmdb_url": "http://cmdb_v2.ops.ymatou.cn",
+        "cmdb_username": "opsadmin",
+        "cmdb_password": "cmdb@ymt8102",
+        "sms_url": "http://api.smsproxy.ymatou.com/api/Message/SendMessage",
+        "default_recipients": {
+          "lixueming": "18662203603",
+          "lingyu": "13601752355",
+          "yijun": "15618322592",
+          "liujianghai": "17721245536"
+        },
+        "autodelete_api": "http://zabbixalert.ops.ymatou.cn/zabbix/api/",
+        "autodelete_token": "1bfc0978761df126e8925ca3552c2b68e59b7dce"
+      }
+    }
+  ]
+}

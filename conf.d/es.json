@@ -1,0 +1,20 @@
+{
+  "collector": [
+    {   
+      "name": "es",
+      "enable": true,
+      "plugin": "collector.plugins.es_collector.ESCollector",
+      "interval": 10, 
+      "default_db": "yms",
+      "params": {
+        "es_host": "10.11.213.5",
+        "es_port": 9200,
+        "db_host": "db25117",
+        "db_user": "devfulllink",
+        "db_password": "J4Lk5dZ84he3qNlobYN5",
+        "db_db": "fulllink"
+      }   
+    }   
+  ]
+}
+

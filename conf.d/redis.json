@@ -1,0 +1,257 @@
+{
+  "collector": [
+    {
+      "name": "redis_10.11.102.131",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.131",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.132",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.132",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.133",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.133",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.134",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.134",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.135",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.135",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.136",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.136",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.137",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.137",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.138",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.138",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.139",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.139",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.140",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.140",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.141",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.141",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.142",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.142",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.143",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.143",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.144",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.144",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.145",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.145",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.146",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.146",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.147",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.147",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.148",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.148",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.149",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.149",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.150",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.150",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.151",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.151",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.152",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.152",
+      "port": 6379
+      }
+    },
+    {
+      "name": "redis_10.11.102.154",
+      "enable": true,
+      "plugin": "collector.collectors.RedisCollector",
+      "interval": 30,
+      "default_db": "yms",
+      "params": {
+      "host": "10.11.102.154",
+      "port": 6379
+      }
+    }
+  ]
+}

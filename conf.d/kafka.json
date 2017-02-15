@@ -1,0 +1,17 @@
+{
+  "collector": [
+    {
+      "name": "kafka",
+      "enable": true,
+      "plugin": "collector.collectors.KafkaCollector",
+      "interval": 60,
+      "default_db": "yms",
+      "params": {
+        "host1": "pro-kafka1",
+        "host2": "pro-kafka2",
+        "host3": "pro-kafka3",
+        "port": 9092
+      }
+    }
+  ]
+}

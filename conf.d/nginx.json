@@ -1,0 +1,18 @@
+{
+  "collector": [
+    {
+      "name": "nginx",
+      "prefix": "nginx",
+      "enable": true,
+      "plugin": "collector.plugins.nginx_collector.NginxCollector",
+      "interval": 60,
+      "default_db": "yms",
+      "params": {
+        "token_url": "http://portal.ymatou.cn/api/iomp/token/",
+        "data_url": "http://portal.ymatou.cn/api/iomp/favorites.json?page_size=100",
+        "username": "opsadmin",
+        "password": "ymt@1234"
+      }
+    }
+  ]
+}

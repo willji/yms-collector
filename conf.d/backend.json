@@ -1,0 +1,25 @@
+{
+  "backend":[
+    {
+      "name": "influxdb",
+      "enable": true,
+      "plugin": "collector.backends.InfluxDBBackend",
+      "params": {
+        "host": "influxdb.ops.ymatou.cn",
+        "port": "80",
+        "type": "influxdb"
+      }
+    },
+    {
+      "name": "kapacitor",
+      "enable": false,
+      "plugin": "collector.backends.InfluxDBBackend",
+      "params": {
+        "host": "influxdb.ops.ymatou.cn",
+        "port": "9092",
+        "type": "kapacitor",
+        "rp": "default"
+      }
+    }
+  ]
+}

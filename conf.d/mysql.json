@@ -1,0 +1,22 @@
+{
+  "collector": [
+    {
+      "name": "mysql_info",
+      "enable": true,
+      "prefix": 'db',
+      "plugin": "collector.plugins.mysql_collector.MysqlCollector",
+      "interval": 10,
+      "default_db": "yms",
+      "params": {
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "root",
+        "passwd": "",
+        "db": "test",
+            }
+          },
+        ]
+      }
+    }
+  ]
+}

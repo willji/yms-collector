@@ -1,0 +1,8 @@
+*~
+*.pyc
+.idea
+*.log
+*.orig
+*.zip
+*.iml
+.python-version

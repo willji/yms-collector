@@ -1,0 +1,15 @@
+{
+  "collector": [
+    {
+      "name": "mq",
+      "plugin": "collector.collectors.MQCollector",
+      "interval": 60,
+      "default_db": "yms",
+      "params": {
+        "host": "http://mqmaster.admin.ymatou.cn:15672/api/queues/",
+        "user": "guest",
+        "password": "guest"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+connected_clients
+blocked_clients
+used_memory
+used_memory_peak
+rdb_bgsave_in_progress
+rdb_last_bgsave_time_sec
+rdb_last_bgsave_status
+aof_rewrite_in_progress
+aof_last_rewrite_time_sec
+aof_last_bgrewrite_status
+aof_last_write_status
+instantaneous_ops_per_sec
+rejected_connections
+role
+master_link_status
+master_last_io_seconds_ago

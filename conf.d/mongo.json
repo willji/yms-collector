@@ -1,0 +1,15 @@
+{
+  "collector": [
+    {
+      "name": "mongo",
+      "enable": true,
+      "plugin": "collector.collectors.MongoCollector",
+      "interval": 6,
+      "default_db": "yms",
+      "params": {
+        "host": "10.10.23.131",
+        "port": 30001
+      }
+    }
+  ]
+}
